@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
 
 /*
 	Landed by HTML5 UP
@@ -105,6 +106,16 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+/* Apply New Amsterdam font to headers */
+	 h1, h2, h3 {
+
+			font-family: "New Amsterdam", sans-serif;
+			letter-spacing: .08em;
+			font-weight: 400;
+			font-style: normal;
+			
+	}
+
 	a {
 		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -133,7 +144,9 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+
 	h1, h2, h3, h4, h5, h6 {
+		
 		color: #ffffff;
 		font-weight: 300;
 		line-height: 1em;
@@ -146,9 +159,9 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 5em;
 		line-height: 1.5em;
-		letter-spacing: -0.025em;
+		letter-spacing: 0.025em;
 	}
 
 	h3 {
